@@ -12,13 +12,13 @@ questions = {
     },
     'space': {
         'Which planet is closest to the sun?': 'mercury',
-        'Which planet spins in the opposite direction to all the others in the solar system?': 'Venus',
+        'Which planet spins in the opposite direction to all the others in the solar system?': 'venus',
         'How many moons does Mars have?': '2'
     },
     'sports': {
-        'Which gymnast is the "triple-twisting double-tucked salto backwards" skill named after?': 'Simone Biles',
+        'Which gymnast is the "triple-twisting double-tucked salto backwards" skill named after?': 'simone biles',
         'Which country has won the soccer world cup the most times?': 'brazil',
-        'What does MLB stand for?': 'Major League Baseball'
+        'What does MLB stand for?': 'major league baseball'
     }
 }
 
