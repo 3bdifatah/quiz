@@ -17,7 +17,12 @@ questions = {
     },
     'sports': {
         'Which gymnast is the "triple-twisting double-tucked salto backwards" skill named after?': 'simone biles',
-        # The technically correct answer here are "Simone Biles" - here name 
+        # The technically correct answer here is "Simone Biles", spelling her name with uppercase letters. Similar for Chicago, Brazil etc. 
+        # It's better to store the correct form of the answer. If you want to allow answers in any case, 
+        # convert the correct answer and user answer to lowercase and compare. 
+        # Words can have different meanings with different capitalizations https://en.wikipedia.org/wiki/Capitonym  
+        # and a quiz may wish to be strict about answers in the correct case. 
+        # Having the correct answer stored in the correct case also looks better when you display the correct answer to the user. 
         'Which country has won the soccer world cup the most times?': 'brazil',
         'What does MLB stand for?': 'major league baseball'
     }
